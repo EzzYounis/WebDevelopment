@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking The CSS File -->
+    <link rel="stylesheet" href="MainPageStyle.css">
+    <!-- Importing new font from GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,  
+    300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <!-- Header part structure -->
+    <header>
+        <img src="images/bank.png" alt="">
+        <span class="bankname">MSKU BANK</span>
+        <p id="Desc"> The Safest Place For Your Money </p>
+    </header>
+    <!-- The maincontent div is the block that contains all the content between the header and the footer -->
+    <div id="maincontent">
+        <div class="Currencies">
+            <p><strong>Currencies Prices</strong></p>
+            <!-- Every currencybox contains the currency image and the price  -->
+            <div class="currencybox"> <img src="images/gold.png" alt=""> 12222</div>
+            <div class="currencybox"> <img src="images/dollar-symbol.png" alt="">123</div>
+            <div class="currencybox"><img src="images/euro.png" alt="">343</div>
+            <div class="currencybox"><img src="images/riyal.png" alt="">434</div>
+            <div class="currencybox"><img src="images/bitcoin.png" alt="">34</div>
+            <div class="currencybox"><img src="images/ethereum.png" alt="">34342</div>
+        </div>
+        <!-- The card page the the view in the middle of the page  -->
+        <div id="Cards-page">
+            <h2> Welcome Mr. EZZALDEEN</h2>
+            
+            <img src="images/card1.png" alt="Card" id="CreditCard">
+            <p>Expenses</p>
+            <!-- Diffing Expenses class for every part of the expenses -->
+            <div class="Expenses">
+                <!-- Every part of Expenses has baricon,bar,title and the percentage of it  -->
+                <div class="bar-icon">
+                    <img src="images/market.png" alt="">
+                </div>
+                <strong>Market</strong>
+                <div class="bar">
+                    <div id="Market"></div>
+                    
+                </div>
+                <p>50%</p>
+            </div>
+            <div class="Expenses">
+                <div class="bar-icon">
+                    <img src="images/clothes.png" alt="">
+                </div>
+                    <strong>Clothes</strong>
+                <div class="bar">
+                    <div id="Clothes"> </div> 
+                </div>
+                <p>20%</p>
+            </div>
+            <div class="Expenses">
+                <div class="bar-icon">
+                    <img  src="images/education.png" alt="">
+                </div>
+                <strong>Education</strong>
+                <div class="bar">
+                    <div id="Education"> </div> 
+                </div>
+                <p>10%</p>
+            </div>
+            <div class="Expenses">
+                <div class="bar-icon"><img src="images/resturant.png" alt=""> </div>
+                <strong>Resturant</strong>
+                <div class="bar">
+                    <div id="Resturant"></div> 
+                </div>
+                <p>5%</p>
+            </div>
+            <div class="Expenses">
+                <div class="bar-icon"><img src="images/others.png" alt=""> </div>
+                <strong>Others</strong>
+                <div class="bar">
+                    <div id="Others"></div>  
+                </div>       
+                <p>15%</p>
+            </div>
+            
+        </div>
+        <!-- This div contains the information of the user  -->
+        <div id="User-Info">
+            <!-- The User-Info section has three parts (AccountInfo,waller and MoneyTransitions) and the there is Information Class coviring these three  -->
+            <div class="Information">
+                <!-- another inner div for centering the content  -->
+                <div>
+                <img src="images/user.png" alt="user">
+                <p><strong>EZZALDEEN E A YOUNIS</strong></p>
+                <p>Account Type: Student</p>
+                </div>
+            </div>
+            <div class="Information" id="wallet">
+                <div>
+                <img src="images/wallet.png" alt="wallet">
+                <p>Total Amount: 23,000.00 TL</p>
+                </div>
+                
+            </div>
+            <div class="Information" id="MoneyTransitions">
+                <!-- Double div for centering  -->
+                <div> 
+                <div><img src="images/money-gift.png" alt=""><strong>Transitions</strong></div>
+                <ul>
+                    <li> +2000TL</li>
+                    <li> -230.50TL</li>
+                    <li>-110.25TL</li>
+                    <li>-500.75TL</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Finaly the footer  part contains three boxes with images as a back gorund -->
+    <footer> 
+        <div id="News1"><a href=""></a><p> 10% CashBack <br> For Student</p></div>
+        <div id="News2"> <p>15% Cashback <br> On Market Payments </p></div>
+        <div id="News3"><p>Get Your New Card </p></div>
+    </footer>
+    
+    
+</body>
+</html>
